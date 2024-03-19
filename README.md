@@ -2,4 +2,4 @@
 Leeda
 Whitney
 Jasiri Dickson
-Austin Winn 
+Austin Wingit
