@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Stack from 'react-bootstrap/esm/Stack';
 
 export default function DailyLog() {
 
@@ -50,8 +51,12 @@ export default function DailyLog() {
         return (
             <div className='dailyLog'>
                 <h1 id ='date'>{date}</h1>
-                <div id='calories'>Today's Calories: </div>
-
+                <Stack>
+                    <div className='p-2'>Calories: </div>
+                    <div className='p-2'>Fat: </div>
+                    <div className='p-2'>Carbs: </div>
+                    <div className='p-2'>Protein: </div>
+                </Stack>
             </div>
         )
 };
